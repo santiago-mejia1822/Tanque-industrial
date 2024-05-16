@@ -172,7 +172,7 @@ class Tanque:
         plt.ylabel('Altura (m)')
         plt.title('Nivel del Tanque')
         plt.grid(True)
-        plt.gca().set_yticks(np.arange(0, max(self.y1) + 0.5, 0.2))
+        #plt.gca().set_yticks(np.arange(0, max(self.y1) + 0.5, 0.2))
         plt.show()
 
 #Función que lo identifica como programa principal.
